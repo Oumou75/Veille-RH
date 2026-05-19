@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veille RH — DELEEV</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, 'Times New Roman', serif; background: #f7f5f0; min-height: 100vh; }
+
+    /* HEADER */
+    .header {
+      background: #1a1a2e;
+      padding: 22px 28px 18px;
+      border-bottom: 3px solid #c0392b;
+    }
+    .header-inner {
+      max-width: 980px; margin: 0 auto;
+      display: flex; align-items: flex-end; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .header-label {
+      color: #c0392b; font-size: 10px; font-family: monospace;
+      letter-spacing: 3px; text-transform: uppercase; margin-bottom: 3px;
+    }
+    .header h1 { color: #fff; font-size: 22px; margin-bottom: 3px; }
+    .header-sub { color: #8a8aaa; font-size: 11px; font-family: monospace; }
+    .header-right { text-align: right; display: flex; flex-direction: column; gap: 5px; align-items: flex-end; }
+    .badge-next {
+      background: #ffffff0d; border: 1px solid #ffffff1a;
+      border-radius: 4px; padding: 4px 10px;
+      font-size: 10px; font-family: monospace; color: #888;
+    }
+    .badge-next strong { color: #ddd; }
+    .badge-status { font-size: 10px; font-family: monospace; color: #6ee7b7; }
+    .badge-status.stale { color: #f59e0b; }
+
+    /* MAIN */
+    .main { padding: 18px 28px; max-width: 980px; margin: 0 auto; }
+
+    /* STATES */
+    .state-box {
+      background: #fff; border: 1px solid #e0dbd0;
+      border-radius: 8px; padding: 48px 28px;
+      text-align: center; margin-top: 12px;
+    }
+    .state-box .emoji { font-size: 44px; margin-bottom: 14px; }
+    .state-box h2 { color: #1a1a2e; font-size: 17px; margin-bottom: 8px; font-family: monospace; }
+    .state-box p { color: #666; font-size: 13px; line-height: 1.8; margin-bottom: 20px; }
+    .dots { display: flex; gap: 6px; justify-content: center; margin-top: 16px; }
+    .dot {
+      width: 8px; height: 8px; border-radius: 50%; background: #c0392b;
+      animation: pulse 1.2s infinite;
+    }
+    .dot:nth-child(2) { animation-delay: .2s; }
+    .dot:nth-child(3) { animation-delay: .4s; }
+    @keyframes pulse {
+      0%,80%,100% { opacity:.2; transform:scale(.8); }
+      40% { opacity:1; transform:scale(1.2); }
+    }
+
+    /* GROUP LABEL */
+    .group-label {
+      font-size: 9px; font-family: monospace; letter-spacing: 2px;
+      color: #bbb; padding: 10px 0 2px; text-transform: uppercase;
+    }
+
+    /* TABS */
+    .tabs {
+      display: flex; gap: 3px; overflow-x: auto;
+    }
+    .tabs.group1 { border-bottom: 1px solid #e8e3da; }
+    .tabs.group2 { border-bottom: 2px solid #ddd; }
+    .tab-btn {
+      border: none; border-radius: 5px 5px 0 0;
+      padding: 8px 13px; font-size: 11px; font-family: monospace;
+      cursor: pointer; white-space: nowrap; transition: all 0.15s;
+      border-bottom: 2px solid transparent; margin-bottom: -2px;
+    }
+    .tab-btn.g1 { background: #eeebe3; color: #555; }
+    .tab-btn.g2 { background: transparent; color: #555; }
+    .tab-btn.active { color: #fff; font-weight: bold; }
+
+    /* PANEL */
+    .panel {
+      background: #fff; border-radius: 0 0 8px 8px;
+      padding: 22px 26px;
+      border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;
+      border-top: 3px solid;
+    }
+    .panel-title { color: #1a1a2e; font-size: 17px; margin-bottom: 6px; font-weight: bold; }
+    .panel-badge {
+      display: inline-block; border-radius: 4px; padding: 2px 9px;
+      font-size: 10px; font-family: monospace; font-weight: bold;
+      border: 1px solid; margin-bottom: 12px;
+    }
+    .panel-resume {
+      font-size: 13px; line-height: 1.85;
+      border-left: 3px solid; padding: 10px 14px;
+      border-radius: 0 5px 5px 0; margin-bottom: 16px;
+    }
+    .points-label {
+      font-size: 9px; font-family: monospace; letter-spacing: 2px;
+      text-transform: uppercase; color: #999; margin-bottom: 8px;
+    }
+    .points-list { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+    .point-item {
+      display: flex; gap: 9px; font-size: 13px; color: #222;
+      line-height: 1.65; background: #f9f8f5;
+      border-radius: 5px; padding: 8px 12px;
+    }
+    .point-num { font-family: monospace; font-weight: bold; min-width: 17px; }
+    .source-line {
+      margin-top: 16px; padding-top: 12px;
+      border-top: 1px solid #e8e3da;
+      color: #aaa; font-size: 10px; font-family: monospace;
+    }
+
+    /* FOOTER */
+    .footer-bar {
+      margin-top: 12px; background: #1a1a2e; border-radius: 6px;
+      padding: 9px 14px; display: flex; align-items: center;
+      justify-content: space-between; flex-wrap: wrap; gap: 8px;
+    }
+    .footer-note { color: #6a6a8a; font-size: 10px; font-family: monospace; }
+    .footer-right { display: flex; align-items: center; gap: 10px; }
+    .footer-countdown { color: #4a4a6a; font-size: 10px; font-family: monospace; }
+
+    /* TAGS (empty state) */
+    .tag-list { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+    .tag { border-radius: 20px; padding: 3px 11px; font-size: 11px; font-family: monospace; border: 1px solid; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div>
+      <div class="header-label">Veille réglementaire · Mise à jour automatique chaque dimanche</div>
+      <h1>Veille RH — DELEEV</h1>
+      <div class="header-sub">IDCC 2198 · IDCC 1501 · Titres de séjour · 9 thématiques</div>
+    </div>
+    <div class="header-right">
+      <div class="badge-next">
+        🔄 Prochain refresh auto : <strong id="next-date">dim. — à 09:00</strong> — dans <span id="countdown">…</span>
+      </div>
+      <div class="badge-status" id="status-badge"></div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div id="loading-state" class="state-box">
+    <div class="emoji">⏳</div>
+    <h2>Chargement…</h2>
+    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+  </div>
+
+  <div id="empty-state" class="state-box" style="display:none">
+    <div class="emoji">📋</div>
+    <h2>Aucune donnée disponible</h2>
+    <p>La première veille sera générée automatiquement dimanche à 09:00.<br>
+    Ou lancez-la manuellement depuis GitHub Actions.</p>
+    <div class="tag-list" id="tag-list"></div>
+  </div>
+
+  <div id="results" style="display:none">
+    <div class="group-label">PAIE & CONVENTIONS COLLECTIVES</div>
+    <div class="tabs group1" id="tabs-g1"></div>
+    <div class="group-label">RH OPÉRATIONNEL & RÉGLEMENTAIRE</div>
+    <div class="tabs group2" id="tabs-g2"></div>
+
+    <div class="panel" id="panel">
+      <div class="panel-title" id="panel-title"></div>
+      <div class="panel-badge" id="panel-badge"></div>
+      <div class="panel-resume" id="panel-resume"></div>
+      <div class="points-label">Points clés</div>
+      <ul class="points-list" id="points-list"></ul>
+      <div class="source-line" id="source-line"></div>
+    </div>
+
+    <div class="footer-bar">
+      <span class="footer-note">💡 Données issues d'une recherche Google via Gemini · Vérifier sur Légifrance avant application</span>
+      <div class="footer-right">
+        <span class="footer-countdown">🔄 Auto-refresh dim. 09:00 · <span id="countdown2">…</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const CATEGORIES = [
+  { id:"smic",      label:"SMIC & Salaires minima",              icon:"€",  color:"#1a7f5a", group:1 },
+  { id:"secu",      label:"Sécurité Sociale & Cotisations",       icon:"🏛", color:"#1a5f8f", group:1 },
+  { id:"vad",       label:"CCN VAD — IDCC 2198",                  icon:"📦", color:"#7c3aed", group:1 },
+  { id:"resto",     label:"CCN Restauration Rapide — IDCC 1501",  icon:"🍔", color:"#b45309", group:1 },
+  { id:"sejour",    label:"Titres de séjour & Travail étranger",  icon:"🛂", color:"#0f766e", group:2 },
+  { id:"sante",     label:"Santé au travail & AT/MP",             icon:"🩺", color:"#be185d", group:2 },
+  { id:"formation", label:"Formation & Alternance",               icon:"🎓", color:"#d97706", group:2 },
+  { id:"conges",    label:"Congés & Absences",                    icon:"📅", color:"#0369a1", group:2 },
+  { id:"legis",     label:"Législation & Jurisprudence RH",       icon:"⚖️", color:"#c0392b", group:2 },
+];
+
+let veillData = null;
+let activeId  = "smic";
+
+// ── Countdown ──────────────────────────────────────────────────
+function getNextSunday9h() {
+  const now = new Date(), day = now.getDay();
+  const daysUntil = day === 0 ? 7 : 7 - day;
+  const next = new Date(now);
+  next.setDate(now.getDate() + daysUntil);
+  next.setHours(9,0,0,0);
+  return next;
+}
+function fmtCountdown(ms) {
+  if (ms <= 0) return "maintenant";
+  const s=Math.floor(ms/1000), d=Math.floor(s/86400),
+        h=Math.floor((s%86400)/3600), m=Math.floor((s%3600)/60);
+  if (d>0) return `${d}j ${h}h ${m}min`;
+  if (h>0) return `${h}h ${m}min`;
+  return `${m} min`;
+}
+const nextSun = getNextSunday9h();
+document.getElementById("next-date").textContent =
+  `dim. ${nextSun.toLocaleDateString("fr-FR",{day:"2-digit",month:"2-digit"})} · 09:00`;
+function tickCountdown() {
+  const v = fmtCountdown(nextSun.getTime() - Date.now());
+  document.getElementById("countdown").textContent  = v;
+  document.getElementById("countdown2").textContent = v;
+}
+tickCountdown();
+setInterval(tickCountdown, 30000);
+
+// ── Render panel ───────────────────────────────────────────────
+function renderPanel(id) {
+  activeId = id;
+  const cat  = CATEGORIES.find(c => c.id === id);
+  const item = veillData[id];
+  if (!cat || !item) return;
+
+  // Tab styles
+  document.querySelectorAll(".tab-btn").forEach(btn => {
+    const isActive = btn.dataset.id === id;
+    btn.classList.toggle("active", isActive);
+    if (isActive) {
+      btn.style.background = cat.color;
+      btn.style.borderBottomColor = cat.color;
+    } else {
+      const g = parseInt(btn.dataset.group);
+      btn.style.background = g===1 ? "#eeebe3" : "transparent";
+      btn.style.borderBottomColor = "transparent";
+    }
+  });
+
+  // Panel border color
+  const panel = document.getElementById("panel");
+  panel.style.borderColor = `${cat.color}25 ${cat.color}25 ${cat.color}25`;
+  panel.style.borderTopColor = cat.color;
+
+  document.getElementById("panel-title").textContent = item.titre || "";
+
+  const badge = document.getElementById("panel-badge");
+  if (item.date_effet) {
+    badge.style.display = "inline-block";
+    badge.textContent   = `📅 En vigueur : ${item.date_effet}`;
+    badge.style.background = cat.color + "15";
+    badge.style.color      = cat.color;
+    badge.style.borderColor= cat.color + "35";
+  } else {
+    badge.style.display = "none";
+  }
+
+  const resume = document.getElementById("panel-resume");
+  resume.textContent   = item.resume || "";
+  resume.style.background   = cat.color + "08";
+  resume.style.borderColor  = cat.color;
+  resume.style.color        = "#333";
+
+  const list = document.getElementById("points-list");
+  list.innerHTML = "";
+  (item.points || []).forEach((p,i) => {
+    const li = document.createElement("li");
+    li.className = "point-item";
+    li.innerHTML = `<span class="point-num" style="color:${cat.color}">${i+1}.</span><span>${p}</span>`;
+    list.appendChild(li);
+  });
+
+  const src = document.getElementById("source-line");
+  src.textContent = item.source ? `📌 Source : ${item.source}` : "";
+  src.style.display = item.source ? "block" : "none";
+}
+
+// ── Build tabs ─────────────────────────────────────────────────
+function buildTabs() {
+  [1,2].forEach(grp => {
+    const container = document.getElementById(`tabs-g${grp}`);
+    container.innerHTML = "";
+    CATEGORIES.filter(c => c.group===grp).forEach(cat => {
+      const btn = document.createElement("button");
+      btn.className = `tab-btn g${grp}`;
+      btn.dataset.id = cat.id;
+      btn.dataset.group = grp;
+      btn.textContent = `${cat.icon} ${cat.label.split("—")[0].trim()}`;
+      btn.addEventListener("click", () => renderPanel(cat.id));
+      container.appendChild(btn);
+    });
+  });
+}
+
+// ── Empty state tags ───────────────────────────────────────────
+function buildTags() {
+  const tl = document.getElementById("tag-list");
+  CATEGORIES.forEach(c => {
+    const s = document.createElement("span");
+    s.className = "tag";
+    s.textContent = `${c.icon} ${c.label.split("—")[0].trim()}`;
+    s.style.background   = c.color + "15";
+    s.style.color        = c.color;
+    s.style.borderColor  = c.color + "35";
+    tl.appendChild(s);
+  });
+}
+
+// ── Load data ──────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res  = await fetch("data/veille.json?t=" + Date.now());
+    const json = await res.json();
+
+    document.getElementById("loading-state").style.display = "none";
+
+    if (!json.data) {
+      document.getElementById("empty-state").style.display = "block";
+      buildTags();
+      return;
+    }
+
+    veillData = json.data;
+
+    // Status badge
+    const ts = json.timestamp ? new Date(json.timestamp) : null;
+    if (ts) {
+      const badge = document.getElementById("status-badge");
+      badge.textContent = `✅ Dernière mise à jour : ${ts.toLocaleDateString("fr-FR")} à ${ts.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}`;
+    }
+
+    buildTabs();
+    document.getElementById("results").style.display = "block";
+    renderPanel("smic");
+
+  } catch(e) {
+    document.getElementById("loading-state").innerHTML =
+      `<div class="emoji">⚠️</div><h2>Erreur de chargement</h2><p>${e.message}</p>`;
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
