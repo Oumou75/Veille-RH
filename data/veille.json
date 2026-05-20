@@ -1,5 +1,123 @@
 {
-  "timestamp": null,
-  "date_fr": null,
-  "data": null
+  "timestamp": "2026-05-20T20:36:04.463953",
+  "date_fr": "20/05/2026",
+  "data": {
+    "smic": {
+      "titre": "Revalorisation du SMIC au 1er janvier et au 1er juin 2026",
+      "resume": "Le SMIC a connu deux revalorisations en 2026. Une première au 1er janvier et une seconde, automatique, au 1er juin en raison de l'inflation.",
+      "points": [
+        "Au 1er janvier 2026, le SMIC horaire brut était de 12,02 € et le SMIC mensuel brut (base 35h) de 1 823,03 €.",
+        "À compter du 1er juin 2026, le SMIC horaire brut est revalorisé à 12,31 €, soit un SMIC mensuel brut de 1 867,02 € pour 35 heures hebdomadaires.",
+        "Cette revalorisation représente une hausse de 2,41 % au 1er juin 2026.",
+        "Le SMIC net mensuel s'élève à 1 477,93 € à partir du 1er juin 2026.",
+        "Les conventions collectives IDCC 2198 (VAD) et IDCC 1501 (Restauration Rapide) doivent garantir des salaires au moins égaux au SMIC légal. En l'absence de dispositions conventionnelles plus favorables, les salaires minima conventionnels inférieurs au SMIC sont automatiquement alignés sur ce dernier."
+      ],
+      "date_effet": "1er janvier 2026 et 1er juin 2026",
+      "source": "Service-Public.fr, Travail-emploi.gouv.fr, Urssaf.fr, Staffmatch, AKTO, Groupe LIP"
+    },
+    "secu": {
+      "titre": "Plafond de la Sécurité Sociale (PSS) et cotisations 2026",
+      "resume": "Le Plafond de la Sécurité Sociale (PSS) a été revalorisé au 1er janvier 2026, servant de base au calcul de diverses cotisations et prestations.",
+      "points": [
+        "Le plafond annuel de la Sécurité Sociale (PASS) pour 2026 est fixé à 48 060 €.",
+        "Le plafond mensuel de la Sécurité Sociale (PMSS) pour 2026 est de 4 005 €.",
+        "Le plafond journalier est de 220 € et le plafond horaire de 30 €.",
+        "Ces montants sont utilisés pour le calcul de certaines cotisations sociales (assurance vieillesse de base, complémentaires) et des indemnités journalières de sécurité sociale (IJSS).",
+        "À Mayotte, le montant du plafond mensuel de la Sécurité Sociale est fixé à 3 022 € au 1er janvier 2026."
+      ],
+      "date_effet": "1er janvier 2026",
+      "source": "Service-Public.fr, BOSS, APICIL Entreprise, LégiSocial, Juritravail"
+    },
+    "vad": {
+      "titre": "Convention Collective Nationale de la Vente à Distance (IDCC 2198)",
+      "resume": "Aucun avenant récent spécifique à la Convention Collective Nationale de la Vente à Distance (IDCC 2198) concernant les grilles de salaires ou des dispositions majeures n'a été identifié lors de cette veille. Les dispositions légales générales, notamment la revalorisation du SMIC, s'appliquent.",
+      "points": [
+        "En l'absence d'avenants spécifiques revalorisant les salaires minima conventionnels, les entreprises relevant de l'IDCC 2198 doivent appliquer le SMIC revalorisé au 1er juin 2026 si leurs grilles de salaires sont inférieures à ce montant.",
+        "Il est recommandé de consulter le site Légifrance ou les publications officielles de la branche pour toute mise à jour éventuelle non couverte par cette veille."
+      ],
+      "date_effet": "N/A (application des règles générales)",
+      "source": "Recherche Google (absence de résultats spécifiques)"
+    },
+    "resto": {
+      "titre": "Convention Collective Nationale de la Restauration Rapide (IDCC 1501)",
+      "resume": "Aucun avenant récent spécifique à la Convention Collective Nationale de la Restauration Rapide (IDCC 1501) concernant les grilles de salaires ou des dispositions spécifiques sur le travail de nuit/dimanche n'a été identifié lors de cette veille. Les dispositions légales générales, notamment la revalorisation du SMIC, s'appliquent.",
+      "points": [
+        "En l'absence d'avenants spécifiques revalorisant les salaires minima conventionnels, les entreprises relevant de l'IDCC 1501 doivent appliquer le SMIC revalorisé au 1er juin 2026 si leurs grilles de salaires sont inférieures à ce montant.",
+        "Aucune information spécifique sur les conditions de travail de nuit ou du dimanche propres à l'IDCC 1501 n'a été trouvée dans les résultats de recherche récents.",
+        "Il est recommandé de consulter le site Légifrance ou les publications officielles de la branche pour toute mise à jour éventuelle non couverte par cette veille."
+      ],
+      "date_effet": "N/A (application des règles générales)",
+      "source": "Recherche Google (absence de résultats spécifiques)"
+    },
+    "sejour": {
+      "titre": "Emploi de travailleurs étrangers en France : titres, obligations et rôle de l'OFII en 2026",
+      "resume": "Les règles d'emploi de travailleurs étrangers en France ont été précisées en 2026, notamment concernant les titres de séjour, les obligations des employeurs et le rôle de l'OFII.",
+      "points": [
+        "Pour recruter un salarié étranger (hors UE/EEE/Suisse), l'employeur doit obtenir une autorisation de travail, qui peut prendre la forme d'un document distinct, d'un titre de séjour valant autorisation de travail, d'un visa long séjour valant titre de séjour (VLS-TS) ou d'une autorisation de prolongation d'instruction.",
+        "De nouvelles réformes en 2026 incluent le Passeport Talent Monde (visa renouvelable de 4 ans) et le permis Travail en Tension pour 19 professions en demande, permettant la régularisation de travailleurs sans papiers sous certaines conditions.",
+        "Les obligations de l'employeur incluent la vérification du droit au travail avant l'embauche, la remise d'informations sur les droits du travailleur et une copie du contrat, ainsi que l'immatriculation à la CPAM si nécessaire.",
+        "Toutes les demandes de permis de travail, renouvellements et mises à jour sont traitées en ligne depuis fin 2025, avec une garantie de décision sous 30 jours pour les visas destinés aux talents.",
+        "Les sanctions pour emploi irrégulier ont été augmentées, avec des amendes pouvant atteindre 20 750 € - 62 250 € par travailleur non autorisé, plus des sanctions pénales.",
+        "L'OFII (Office Français de l'Immigration et de l'Intégration) gère les procédures d'immigration professionnelle et familiale, le dispositif d'accueil des demandeurs d'asile, les aides au retour et à la réinsertion, et participe à la lutte contre le travail illégal.",
+        "L'OFII intervient notamment pour la demande d'autorisation de travail des jeunes professionnels, l'organisation des visites médicales et la tenue des procédures d'admission et d'introduction."
+      ],
+      "date_effet": "1er janvier 2026 (pour les nouvelles règles d'intégration et poursuite des réformes de 2025)",
+      "source": "Exilae, Cabinet Mosselmans, Jobbatical, OFII, Service-Public.fr, Travail-emploi.gouv.fr, FB Avocat"
+    },
+    "sante": {
+      "titre": "Santé au travail : visites médicales, DUERP et inaptitude en 2026",
+      "resume": "Le cadre de la santé au travail en 2026 est marqué par des précisions sur les visites médicales et les obligations de l'employeur en cas d'inaptitude.",
+      "points": [
+        "La visite médicale d'embauche a été remplacée par la Visite d'Information et de Prévention (VIP) depuis le 1er janvier 2017.",
+        "La périodicité des visites médicales varie : généralement tous les 5 ans pour la VIP, 3 ans pour certains salariés exposés ou vulnérables, et 4 ans avec une visite intermédiaire à 2 ans pour le suivi individuel renforcé (SIR).",
+        "L'inaptitude au travail est prononcée par le médecin du travail et déclenche une obligation de reclassement pour l'employeur.",
+        "L'employeur doit rechercher un poste de reclassement adapté aux capacités du salarié, en tenant compte des conclusions du médecin du travail, et consulter le CSE.",
+        "Si aucun reclassement n'est possible ou si le salarié refuse les postes proposés, l'employeur peut engager une procédure de licenciement pour inaptitude.",
+        "En cas d'inaptitude d'origine professionnelle (AT/MP), les indemnités de licenciement sont doublées et une indemnité compensatrice de préavis est due.",
+        "L'employeur dispose d'un mois après l'avis d'inaptitude pour reclasser le salarié ou reprendre le versement du salaire.",
+        "Un avis d'inaptitude peut être rendu à l'issue de tout examen médical réalisé par le médecin du travail, quelle que soit l'initiative de la visite.",
+        "Le Document Unique d'Évaluation des Risques Professionnels (DUERP) reste une obligation pour toutes les entreprises, mais aucune mise à jour spécifique pour 2026 n'a été trouvée dans les résultats."
+      ],
+      "date_effet": "2026 (précisions jurisprudentielles et décrets)",
+      "source": "QuickMS, Travail-emploi.gouv.fr, Alexia, Stratégie & Expertise Santé, Travail-Industrie, CIBTP Région du Centre, Voltaire Avocats, CDG 64, CDG 10"
+    },
+    "formation": {
+      "titre": "Formation professionnelle : CPF, OPCO Commerce et aides à l'alternance en 2026",
+      "resume": "Le financement de la formation professionnelle continue et de l'alternance reste un enjeu majeur en 2026, avec des aides reconduites pour les apprentis et le rôle central des OPCO.",
+      "points": [
+        "L'OPCO Commerce (Opcommerce) est l'opérateur de compétences des secteurs conventionnels des branches du commerce, couvrant notamment l'IDCC 2198 (VAD) et l'IDCC 1501 (Restauration Rapide).",
+        "L'aide destinée aux employeurs embauchant des apprentis est reconduite pour 2026 par le décret n° 2026-168 du 6 mars 2026.",
+        "Pour les contrats conclus depuis le 8 mars 2026 et débutant avant le 1er janvier 2027, l'aide unique peut atteindre 5 000 € pour les entreprises de moins de 250 salariés et 6 000 € pour les apprentis en situation de handicap.",
+        "Les entreprises de 250 salariés et plus peuvent bénéficier de l'aide sous condition d'atteindre un certain seuil de contrats d'alternance.",
+        "Les OPCO financent les frais de formation des apprentis et alternants via les NPEC (Niveaux de Prise en Charge).",
+        "Le Compte Personnel de Formation (CPF) reste un dispositif clé pour l'accès des salariés à la formation, bien qu'aucune mise à jour spécifique pour 2026 n'ait été trouvée dans les résultats."
+      ],
+      "date_effet": "8 mars 2026 (pour les aides à l'alternance)",
+      "source": "economie.gouv.fr, Constructys, Opco EP, Travail-emploi.gouv.fr, OPCO.FR, Indeed, Opco Direct"
+    },
+    "conges": {
+      "titre": "Congés payés : évolutions jurisprudentielles et règles en 2026",
+      "resume": "La jurisprudence de 2026 a apporté des précisions importantes sur l'acquisition et le report des congés payés en cas d'arrêt maladie, ainsi que sur leur prise en compte pour le calcul des heures supplémentaires.",
+      "points": [
+        "La Cour de cassation a jugé le 7 janvier 2026 que les heures de congés payés doivent être incluses dans le calcul de la durée du travail pour déterminer les heures supplémentaires, même pour un décompte sur un cycle de deux semaines.",
+        "Depuis la loi du 22 avril 2024, les périodes d'arrêt maladie, y compris d'origine non professionnelle, ouvrent droit à l'acquisition de congés payés (2 jours ouvrables par mois d'absence, dans la limite de 24 jours ouvrables par période de référence).",
+        "Un arrêt de la Cour de cassation du 21 janvier 2026 a clarifié que seuls les jours acquis au titre de la période de référence sont pris en compte pour le plafond des 24 jours ouvrables, excluant les jours reportés.",
+        "Si un salarié tombe malade pendant ses congés payés, les jours de congé qui coïncident avec l'arrêt peuvent être reportés.",
+        "L'employeur a l'obligation d'informer le salarié de ses droits à congés et de lui donner la possibilité effective de les prendre, faute de quoi les congés restent dus même après l'expiration du délai de 15 mois.",
+        "Aucune disposition spécifique aux congés payés pour les IDCC 2198 (VAD) et 1501 (Restauration Rapide) n'a été trouvée dans les résultats de recherche récents, les règles générales du Code du travail et la jurisprudence s'appliquent donc."
+      ],
+      "source": "Village de la Justice, Abeille Avocats, Staff & Go, Helloworkplace, CCI Occitanie"
+    },
+    "legis": {
+      "titre": "Actualités législatives et jurisprudentielles RH majeures en mai 2026",
+      "resume": "Plusieurs évolutions importantes ont marqué le droit social français en mai 2026, notamment concernant le SMIC, les aides à l'alternance et la jurisprudence sur les congés payés.",
+      "points": [
+        "**Revalorisation du SMIC au 1er juin 2026** : Le SMIC a été revalorisé de 2,41 % au 1er juin 2026, portant le SMIC mensuel brut à 1 867,02 euros, en réponse à l'inflation.",
+        "**Reconduction et modulation des aides à l'embauche d'apprentis** : Le décret n° 2026-168 du 6 mars 2026 reconduit et module les aides aux employeurs d'apprentis pour 2026, avec des montants variant selon la taille de l'entreprise et le niveau de qualification visé.",
+        "**Précisions jurisprudentielles sur les congés payés et arrêt maladie** : La Cour de cassation a rendu plusieurs arrêts en janvier et mars 2026, clarifiant l'assimilation des congés payés à du temps de travail pour le calcul des heures supplémentaires et les modalités d'acquisition et de report des congés en cas d'arrêt maladie.",
+        "**Réformes de l'immigration et permis de travail** : Les réformes de l'immigration de 2025 se poursuivent en 2026, avec l'entrée en vigueur de nouvelles règles d'intégration au 1er janvier 2026, l'introduction du Passeport Talent Monde et du permis Travail en Tension, et le renforcement des sanctions pour les employeurs."
+      ],
+      "source": "Travail-emploi.gouv.fr, Staffmatch, Village de la Justice, economie.gouv.fr, Jobbatical"
+    }
+  }
 }
