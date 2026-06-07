@@ -1,114 +1,125 @@
 {
-  "timestamp": "2026-05-31T12:04:49.842176",
-  "date_fr": "31/05/2026",
+  "timestamp": "2026-06-07T12:14:45.717310",
+  "date_fr": "07/06/2026",
   "data": {
     "smic": {
       "titre": "Revalorisation du SMIC au 1er juin 2026",
-      "resume": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) a été revalorisé deux fois en 2026. Une première fois au 1er janvier, puis une revalorisation anticipée au 1er juin en raison de l'inflation. Les salaires conventionnels inférieurs au SMIC doivent être ajustés.",
+      "resume": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) a été revalorisé au 1er juin 2026 en raison de l'augmentation de l'indice des prix à la consommation.",
       "points": [
-        "SMIC horaire brut au 1er juin 2026 : 12,31 €",
-        "SMIC mensuel brut (base 35h) au 1er juin 2026 : 1 867,02 €",
-        "Précédente revalorisation au 1er janvier 2026 : SMIC horaire brut à 12,02 € et mensuel brut à 1 823,03 €",
-        "Impact sur les IDCC 2198 (VAD) et 1501 (Restauration Rapide) : Les grilles de salaires conventionnelles ne peuvent être inférieures au SMIC. Si tel est le cas, les minima conventionnels doivent être portés au niveau du SMIC."
+        "SMIC horaire brut : 12,31 euros",
+        "SMIC mensuel brut (base 35h) : 1 867,02 euros",
+        "Cette revalorisation impacte les minima conventionnels des IDCC 2198 (VAD) et 1501 (Restauration Rapide) si ces derniers sont inférieurs au nouveau SMIC."
       ],
-      "date_effet": "1er juin 2026",
-      "source": "Urssaf.fr, info.gouv.fr, La finance pour tous, Travail-emploi.gouv.fr, Voltaire Avocats, France Emploi Domicile"
+      "date_effet": "01/06/2026",
+      "source": "info.gouv.fr, Bpifrance Création, Vie publique, Otre, Urssaf.fr, France Travail, AKTO, Code du travail numérique, WIZBII Money, L'Hôtellerie Restauration, Insee"
     },
     "secu": {
       "titre": "Plafond de la Sécurité Sociale (PSS) 2026",
-      "resume": "Le plafond de la Sécurité Sociale a été revalorisé au 1er janvier 2026, servant de base au calcul de certaines cotisations et prestations sociales.",
+      "resume": "Le plafond de la Sécurité Sociale a été revalorisé pour l'année 2026, impactant le calcul de certaines cotisations.",
       "points": [
-        "Plafond Mensuel de la Sécurité Sociale (PMSS) 2026 : 4 005 €",
-        "Plafond Annuel de la Sécurité Sociale (PASS) 2026 : 48 060 €",
-        "Le PMSS est une référence pour le calcul des indemnités journalières (IJ) pour maladie, accident du travail, maternité, etc."
+        "Plafond annuel de la Sécurité Sociale (PASS) : 48 060 euros",
+        "Plafond mensuel de la Sécurité Sociale (PMSS) : 4 005 euros",
+        "Plafond journalier de la Sécurité Sociale : 220 euros",
+        "Les taux de cotisations patronales et salariales sont sujets à des mises à jour annuelles, mais les détails spécifiques pour 2026 n'ont pas été trouvés dans les recherches.",
+        "Aucune information spécifique sur les Indemnités Journalières de Sécurité Sociale (IJSS) pour 2026 n'a été trouvée."
       ],
-      "date_effet": "1er janvier 2026",
-      "source": "Caisse de Prévoyance Sociale SPM, Centre Inffo, Juritravail, Urssaf.fr, Mutuelle Conseil"
+      "date_effet": "01/01/2026",
+      "source": "Urssaf.fr, Centre Inffo, Juritravail, L-Expert-Comptable.com, Banque Populaire"
     },
     "vad": {
       "titre": "Convention Collective Nationale de la Vente à Distance (IDCC 2198)",
-      "resume": "Aucune information spécifique concernant les derniers avenants ou les grilles de salaires pour l'IDCC 2198 (Vente à Distance) pour l'année 2026 n'a été trouvée lors de cette veille.",
+      "resume": "Aucun avenant spécifique ou grille de salaires actualisée pour 2026 n'a été trouvé pour l'IDCC 2198. Les entreprises relevant de cette convention doivent s'assurer que les salaires minima conventionnels respectent le nouveau SMIC en vigueur.",
       "points": [
-        "Pas d'avenants ou de grilles de salaires spécifiques pour 2026 identifiés."
+        "Vérification des salaires minima conventionnels par rapport au SMIC revalorisé au 1er juin 2026."
       ],
-      "date_effet": "Non spécifié",
-      "source": "Recherche Google (aucune information récente trouvée)"
+      "date_effet": "N/A",
+      "source": "N/A"
     },
     "resto": {
       "titre": "Convention Collective Nationale de la Restauration Rapide (IDCC 1501)",
-      "resume": "La convention collective de la restauration rapide (IDCC 1501) encadre diverses conditions de travail, notamment les congés payés et les périodes d'essai. Aucune mise à jour récente spécifique sur les grilles de salaires ou le travail de nuit/dimanche pour 2026 n'a été identifiée.",
+      "resume": "La grille de salaires applicable reste celle de l'avenant n°33 du 19 juin 2024. Les dispositions relatives aux congés payés et au travail de nuit/dimanche sont encadrées par la convention.",
       "points": [
-        "Congés payés : 2,5 jours ouvrables par mois travaillé, soit 30 jours ouvrables par an. Le congé principal de 24 jours peut être fractionné, avec 12 jours consécutifs obligatoirement pris entre le 1er mai et le 31 octobre.",
-        "Affichage des congés payés au plus tard le 1er avril.",
-        "Périodes d'essai : Ouvriers (1 mois), Employés niveau 3 (2 mois), Agents de maîtrise (4 mois), Cadres (6 mois).",
+        "La grille de salaires applicable est celle prévue par l'avenant n°33 du 19 juin 2024, qui doit être comparée au nouveau SMIC.",
+        "Les salariés bénéficient de 2,5 jours ouvrables de congés payés par mois travaillé, soit 30 jours ouvrables par an.",
+        "Le congé principal de 24 jours ouvrables peut être fractionné, avec 12 jours consécutifs obligatoirement pris entre le 1er mai et le 31 octobre. Des jours supplémentaires sont attribués en cas de fractionnement imposé par l'employeur.",
+        "Un congé sans solde d'un mois maximum peut être accordé aux immigrés et salariés des pays d'outre-mer.",
+        "La convention prévoit 2 jours de congés pour déménagement par tranche de 3 ans.",
         "Une pause de 20 minutes est obligatoire au-delà de 6 heures de travail effectif."
       ],
-      "date_effet": "Non spécifié pour les avenants/grilles de salaires, mais les règles générales sont en vigueur.",
-      "source": "Factorial, Légifrance, LégiSocial, Combo"
+      "date_effet": "N/A (grille salaires 19/06/2024)",
+      "source": "Factorial, L'Hôtellerie Restauration, ExitPro, Légifrance, LégiSocial, Combo"
     },
     "sejour": {
-      "titre": "Emploi de travailleurs étrangers en France",
-      "resume": "L'emploi de ressortissants étrangers est soumis à des règles strictes concernant les titres de séjour et autorisations de travail. Les employeurs ont des obligations de vérification et s'exposent à des sanctions lourdes en cas d'emploi irrégulier.",
+      "titre": "Embauche de salariés étrangers : titres de séjour, obligations et sanctions",
+      "resume": "L'embauche de salariés étrangers est strictement encadrée, nécessitant la vérification des titres de travail et le respect de procédures spécifiques pour éviter de lourdes sanctions.",
       "points": [
-        "Les ressortissants de l'UE/EEE/Suisse/Monaco/Andorre/Saint-Martin peuvent travailler sans restriction avec une pièce d'identité.",
-        "Pour les autres nationalités, un titre de séjour autorisant le travail est requis, parfois complété par une autorisation de travail.",
-        "Obligation de l'employeur de vérifier le droit de travailler en France avant l'embauche.",
-        "Sanctions pénales pour emploi d'un étranger sans titre : 5 ans d'emprisonnement et 30 000 € d'amende par salarié (jusqu'à 75 000 € en cas de circonstances aggravantes).",
-        "Amende administrative : jusqu'à 10 375 € par salarié irrégulièrement embauché.",
-        "Les personnes morales peuvent être condamnées à une amende quintuple (jusqu'à 375 000 € par travailleur).",
-        "Le rôle de l'OFII est généralement lié à la régularisation et l'intégration, l'employeur devant saisir le préfet pour l'autorisation de travail."
+        "Les ressortissants de l'Union européenne, de l'Espace économique européen et de la Suisse bénéficient d'un droit au travail de plein droit et n'ont pas besoin d'autorisation de travail.",
+        "Pour les salariés hors UE, une autorisation de travail est généralement requise, figurant sur le titre de séjour, un visa long séjour valant titre de séjour (VLS-TS) ou une autorisation spécifique.",
+        "L'employeur doit vérifier le droit au travail du salarié étranger au moins deux jours ouvrables avant la date de prise de poste via le téléservice officiel et conserver la preuve de cette vérification.",
+        "Une copie du titre de séjour doit être envoyée à la préfecture compétente au moins 48 heures ouvrables avant l'embauche.",
+        "La Déclaration Préalable à l'Embauche (DPAE) doit être réalisée.",
+        "Les justificatifs liés à la situation administrative du salarié étranger doivent être archivés pendant au moins trois ans.",
+        "L'emploi d'un étranger sans titre l'autorisant à travailler est passible de 5 ans d'emprisonnement et 30 000 € d'amende par personne physique, et jusqu'à 150 000 € pour une personne morale.",
+        "Des amendes administratives allant jusqu'à 21 750 € par travailleur étranger (5 000 fois le minimum garanti) peuvent être appliquées, doublées en cas de récidive.",
+        "Des sanctions administratives incluent la suppression des aides publiques, l'exclusion des contrats publics et la fermeture d'établissement.",
+        "L'employeur doit verser une redevance à l'OFII, dont le montant varie selon la durée du contrat et la rémunération."
       ],
-      "date_effet": "En vigueur",
-      "source": "vertexaisearch.cloud.google.com, Travail-emploi.gouv.fr, GHR, JuriScore, Service Public"
+      "date_effet": "2026",
+      "source": "CIBTP Île-de-France, GHR, Cabinet Mosselmans, Recruter un salarié étranger en France en 2026, Deel, Autorisation de travail en 2026, Recruter un salarié étranger : nouvelles règles de l'autorisation de travail en 2026, Service Public Entreprendre"
     },
     "sante": {
-      "titre": "Prévention et suivi de la santé au travail",
-      "resume": "Le Document Unique d'Évaluation des Risques Professionnels (DUERP) est obligatoire et les visites médicales ont des périodicités définies. La procédure d'inaptitude est strictement encadrée par la médecine du travail.",
+      "titre": "Santé et sécurité au travail : DUERP, visites médicales et inaptitude",
+      "resume": "Le suivi médical des salariés reste une obligation essentielle pour les employeurs, avec des périodicités et des types de visites adaptés aux risques et situations.",
       "points": [
-        "DUERP : Obligatoire dès le 1er salarié, il recense les risques professionnels et les actions de prévention.",
-        "Mise à jour du DUERP : Annuelle pour les entreprises d'au moins 11 salariés, ou lors de modifications importantes des conditions de travail ou de nouvelles informations sur un risque.",
-        "Conservation du DUERP : 40 ans.",
-        "Sanctions pour absence ou non-mise à jour du DUERP : Amende de 5e classe (jusqu'à 1 500 € pour personne physique, 7 500 € pour personne morale, doublé en cas de récidive).",
-        "Visites médicales : La Visite d'Information et de Prévention (VIP) a remplacé la visite d'embauche depuis le 1er janvier 2017.",
-        "Périodicité des VIP : Au plus tous les 5 ans (suivi individuel normal), 3 ans pour certains profils (travailleurs de nuit, handicapés, invalides), 4 ans avec une visite intermédiaire à 2 ans pour le suivi individuel renforcé (SIR).",
-        "Inaptitude au travail : Constatée par le médecin du travail après examen médical et étude de poste. L'employeur doit rechercher un reclassement. Licenciement possible si reclassement impossible, refusé par le salarié, ou si l'avis médical l'indique."
+        "Le Document Unique d'Évaluation des Risques Professionnels (DUERP) est une obligation pour tout employeur.",
+        "La Visite d'Information et de Prévention (VIP) doit être réalisée dans les 3 mois suivant la prise de poste, puis tous les 5 ans.",
+        "La périodicité de la VIP est de 3 ans pour les travailleurs de nuit, les travailleurs handicapés, les titulaires d'une pension d'invalidité et les jeunes de moins de 18 ans.",
+        "Le Suivi Individuel Renforcé (SIR) concerne les salariés affectés à des postes à risques, avec un examen médical d'aptitude avant la prise de poste, puis tous les 4 ans avec une visite intermédiaire à 2 ans.",
+        "Une visite de mi-carrière est obligatoire à 45 ans (ou âge fixé par accord de branche).",
+        "Une visite de reprise est obligatoire après certains arrêts de travail (maladie ou accident de plus de 60 jours, congé maternité).",
+        "Le décret n° 2025-355 du 18 avril 2025 a supprimé le SIR pour les salariés titulaires d'une habilitation électrique ou d'une autorisation de conduite, remplacé par une attestation de non-contre-indication médicale valable 5 ans.",
+        "Le médecin du travail délivre un avis d'aptitude ou d'inaptitude à l'issue des examens médicaux."
       ],
-      "date_effet": "En vigueur (DUERP depuis 2001, VIP depuis 2017, avis d'inaptitude depuis juillet 2025)",
-      "source": "Addict Aide, QuickMS, Travail-emploi.gouv.fr, MCCI, Le portail de la fonction publique, Ageval, Travail-Industrie, Hays.fr, Droit Travail France"
+      "date_effet": "2026 (avec application du décret 2025-355 au 01/10/2025)",
+      "source": "QuickMS, Travail-emploi.gouv.fr, Humans Board, Travail-Industrie, CDG 64"
     },
     "formation": {
-      "titre": "Dispositifs de formation professionnelle et aides à l'alternance",
-      "resume": "L'OPCO Commerce soutient la formation et l'alternance dans le secteur. Les aides à l'embauche d'apprentis ont été reconduites pour 2026 avec des montants spécifiques.",
+      "titre": "Formation professionnelle : aides à l'alternance et CPF",
+      "resume": "Les aides à l'embauche d'apprentis sont reconduites et ajustées pour 2026, visant à soutenir le recrutement en alternance.",
       "points": [
-        "OPCO Commerce : Accompagne les entreprises du secteur dans le développement des compétences, finance les contrats d'apprentissage et de professionnalisation, et apporte un appui technique aux branches professionnelles.",
-        "Aides à l'embauche d'apprentis : Reconduites pour 2026 par le décret n° 2026-168 du 6 mars 2026, pour les contrats conclus depuis le 8 mars 2026 et débutant avant le 1er janvier 2027.",
-        "Montant de l'aide unique : Jusqu'à 5 000 € pour les entreprises de moins de 250 salariés pour les niveaux 3 et 4 (infrabac et bac).",
-        "Aide exceptionnelle : Jusqu'à 4 500 € pour les entreprises de moins de 250 salariés pour le niveau 5 (Bac+2).",
-        "Aide spécifique : 6 000 € pour les apprentis en situation de handicap.",
-        "Ces aides ne sont pas cumulables pour un même contrat et ne concernent que la première année d'exécution."
+        "Les aides à l'embauche d'apprentis sont reconduites pour 2026 par le décret n° 2026-168 du 6 mars 2026.",
+        "L'aide unique à l'embauche d'un apprenti est de 5 000 € maximum (6 000 € pour un apprenti en situation de handicap) pour les entreprises de moins de 250 salariés, pour les diplômes de niveau 3 ou 4 (jusqu'au niveau 5 en Outre-mer).",
+        "Une aide exceptionnelle est prévue pour les contrats conclus entre le 8 mars et le 31 décembre 2026 et débutant avant le 1er janvier 2027. Les montants varient selon la taille de l'entreprise et le niveau de diplôme préparé (ex: 5 000 € pour moins de 250 salariés, niveaux 3 et 4; 2 000 € pour 250 salariés et plus, niveaux 3 et 4).",
+        "Les entreprises de 250 salariés et plus doivent s'engager à atteindre un certain seuil de contrats d'alternance ou de contrats favorisant l'insertion professionnelle dans leur effectif.",
+        "La prime d'activité de la CAF est la principale aide pour les apprentis.",
+        "Aucune actualité majeure spécifique au CPF ou à l'OPCO Commerce pour 2026 n'a été trouvée dans les recherches."
       ],
-      "date_effet": "8 mars 2026 (pour les aides apprentis)",
-      "source": "Kit Certification Qualiopi, PayFit, economie.gouv.fr, Opco EP, Le Campus de l'Alternance Grenoble, Constructys, Travail-emploi.gouv.fr, Dendreo"
+      "date_effet": "2026 (décret du 06/03/2026)",
+      "source": "Bloom Alternance, AKTO, economie.gouv.fr, Publication du décret de renouvellement de l'aide aux employeurs d'apprentis, Alternance Professionnelle, Opco EP, Les aides financières pour recruter en alternance, Les aides financières pour recruter un alternant, Les aides financières pour recruter en alternance - Opco EP, L'aide à l'embauche d'un apprenti en 2026 - Constructys, Aide aux employeurs qui recrutent en contrat d'apprentissage - les-aides.fr, Linkpick"
     },
     "conges": {
-      "titre": "Congés payés et autres congés",
-      "resume": "Les règles générales d'acquisition des congés payés s'appliquent, avec des spécificités pour la convention collective de la restauration rapide. Aucune jurisprudence majeure ou modification des congés maternité/paternité n'a été identifiée pour 2026.",
+      "titre": "Congés payés et congés spécifiques",
+      "resume": "Les règles générales des congés payés s'appliquent, complétées par les dispositions spécifiques des conventions collectives. Aucune nouvelle jurisprudence majeure sur les congés payés pour 2026 n'a été identifiée.",
       "points": [
-        "Congés payés (IDCC 1501 Restauration Rapide) : 2,5 jours ouvrables par mois travaillé, soit 30 jours ouvrables par an. Le congé principal de 24 jours peut être fractionné, avec 12 jours consécutifs pris entre le 1er mai et le 31 octobre.",
-        "Affichage des congés payés au plus tard le 1er avril.",
-        "Possibilité de congé sans solde d'un mois maximum pour les immigrés et salariés des pays d'outre-mer, accolé au congé principal."
+        "Les droits aux congés annuels sont déterminés par la réglementation en vigueur, avec une période de référence allant du 1er juin au 31 mai de l'année suivante.",
+        "Les salariés bénéficient de 2,5 jours ouvrables de congés payés par mois travaillé.",
+        "Pour l'IDCC 1501 (Restauration Rapide), le congé principal de 24 jours peut être fractionné, avec 12 jours consécutifs pris entre le 1er mai et le 31 octobre. Des jours supplémentaires sont attribués en cas de fractionnement imposé.",
+        "La convention IDCC 1501 prévoit un congé sans solde d'un mois maximum pour les immigrés et salariés des pays d'outre-mer, et 2 jours pour déménagement par tranche de 3 ans.",
+        "Aucune nouvelle jurisprudence majeure concernant spécifiquement les congés payés pour 2026 n'a été trouvée, bien qu'une décision de la Cour de cassation de janvier 2024 ait rappelé la responsabilité de l'employeur dans l'organisation du suivi médical.",
+        "Aucune mise à jour spécifique concernant les congés maternité/paternité ou les congés pour l'IDCC 2198 n'a été trouvée."
       ],
-      "source": "Factorial, Légifrance, LégiSocial"
+      "source": "Factorial, ExitPro, Légifrance, LégiSocial, Combo, Humans Board"
     },
     "legis": {
       "titre": "Actualités législatives RH majeures récentes",
-      "resume": "Plusieurs évolutions législatives récentes impactent le droit social français, notamment la revalorisation du SMIC, la reconduction des aides à l'apprentissage et les réformes en santé au travail.",
+      "resume": "Plusieurs évolutions législatives et réglementaires impactent le droit social français en 2026, notamment en matière de rémunération, d'alternance et de santé au travail.",
       "points": [
-        "Revalorisation du SMIC : Une revalorisation automatique du SMIC est intervenue au 1er juin 2026 en raison de l'inflation, portant le SMIC horaire brut à 12,31 €.",
-        "Aides à l'apprentissage : Le décret n° 2026-168 du 6 mars 2026 reconduit l'aide aux employeurs d'apprentis pour 2026, applicable aux contrats conclus à partir du 8 mars 2026.",
-        "Prévention en santé au travail : La loi du 2 août 2021 a renforcé la prévention en santé au travail, avec des évolutions concernant le DUERP et les visites médicales, dont l'entrée en vigueur de l'arrêté du 3 mars 2025 pour le modèle d'avis d'inaptitude."
+        "**Revalorisation du SMIC au 1er juin 2026** : Le SMIC horaire brut est passé à 12,31 € et le SMIC mensuel brut à 1 867,02 € pour 35 heures, suite à l'augmentation de l'indice des prix à la consommation.",
+        "**Reconduction et ajustement des aides à l'embauche d'apprentis** : Le décret n° 2026-168 du 6 mars 2026 reconduit les aides pour 2026, avec des montants modulés selon la taille de l'entreprise et le niveau de qualification visé.",
+        "**Augmentation du Plafond de la Sécurité Sociale (PSS) pour 2026** : Le PASS est fixé à 48 060 € et le PMSS à 4 005 € à compter du 1er janvier 2026.",
+        "**Évolution du suivi médical pour certaines habilitations** : Le décret n° 2025-355 du 18 avril 2025, entré en vigueur le 1er octobre 2025, a supprimé le Suivi Individuel Renforcé (SIR) pour les salariés titulaires d'une habilitation électrique ou d'une autorisation de conduite, remplacé par une attestation de non-contre-indication médicale valable 5 ans."
       ],
-      "source": "info.gouv.fr, Travail-emploi.gouv.fr, Voltaire Avocats, Le portail de la fonction publique"
+      "source": "info.gouv.fr, Vie publique, Otre, economie.gouv.fr, Publication du décret de renouvellement de l'aide aux employeurs d'apprentis, Urssaf.fr, Centre Inffo, Juritravail, L-Expert-Comptable.com, Banque Populaire, Humans Board, CDG 64"
     }
   }
 }
