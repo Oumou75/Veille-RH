@@ -1,114 +1,132 @@
 {
-  "timestamp": "2026-09-20T11:53:09.118186",
-  "date_fr": "20/09/2026",
+  "timestamp": "2026-09-27T12:32:52.449287",
+  "date_fr": "27/09/2026",
   "data": {
     "smic": {
       "titre": "Revalorisation du SMIC au 1er juin 2026",
-      "resume": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) a été revalorisé de manière automatique au 1er juin 2026 en raison de l'inflation, notamment due à la hausse des prix de l'énergie.",
+      "resume": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) a connu une double revalorisation en 2026, avec une hausse significative au 1er juin.",
       "points": [
-        "SMIC horaire brut : 12,31 €",
-        "SMIC mensuel brut (base 35h) : 1 867,02 €",
-        "Date d'effet de la revalorisation : 1er juin 2026",
-        "Impact sur les conventions collectives IDCC 2198 (VAD) et IDCC 1501 (Restauration Rapide) : Les salaires minima conventionnels ne peuvent être inférieurs au SMIC. Si les grilles salariales de ces conventions n'ont pas été revalorisées pour atteindre ou dépasser ce montant, le SMIC s'applique de plein droit. Aucune grille salariale spécifique pour 2026 n'a été trouvée pour ces IDCC, il convient donc de se référer au SMIC si celui-ci est plus favorable."
+        "SMIC horaire brut : 12,31 € depuis le 1er juin 2026.",
+        "SMIC mensuel brut (35 heures) : 1 867,02 € depuis le 1er juin 2026.",
+        "Le SMIC avait déjà été revalorisé au 1er janvier 2026 à 12,02 € brut de l'heure et 1 823,03 € brut mensuel.",
+        "La revalorisation du 1er juin 2026 est intervenue suite à une augmentation de l'indice des prix à la consommation de plus de 2% par rapport à la précédente revalorisation.",
+        "Les conventions collectives (IDCC 2198 et 1501) doivent impérativement respecter le montant du SMIC. Si les grilles de salaires conventionnelles prévoient des rémunérations inférieures au SMIC, c'est le SMIC qui doit être appliqué."
       ],
-      "date_effet": "01/06/2026",
-      "source": "info.gouv.fr, Bpifrance Création, Dougs, Ministère du Travail et des Solidarités, France Travail, Urssaf.fr, AKTO, Boss.gouv.fr, Service Public, Insee"
+      "date_effet": "1er juin 2026",
+      "source": "info.gouv.fr, Urssaf.fr, Bpifrance Création, Travail-emploi.gouv.fr, France Travail, Boss.gouv.fr, AKTO, Meteojob, Staffmatch"
     },
     "secu": {
-      "titre": "Plafond de la Sécurité Sociale et Indemnités Journalières (IJSS) 2026",
-      "resume": "Le plafond de la Sécurité Sociale (PSS) a été revalorisé au 1er janvier 2026. Les Indemnités Journalières de Sécurité Sociale (IJSS) ont également vu leurs montants maximaux évoluer en 2026, avec un plafond de calcul basé sur le SMIC mensuel.",
+      "titre": "Plafond de la Sécurité Sociale et IJSS pour 2026",
+      "resume": "Le plafond de la Sécurité Sociale (PSS) a été revalorisé au 1er janvier 2026. Les Indemnités Journalières de Sécurité Sociale (IJSS) sont calculées sur la base du salaire journalier de base, plafonné à 1,4 SMIC mensuel.",
       "points": [
-        "Plafond annuel de la Sécurité Sociale (PASS) : 48 060 €",
-        "Plafond mensuel de la Sécurité Sociale (PMSS) : 4 005 €",
-        "Plafond journalier de la Sécurité Sociale (PJSS) : 220 €",
-        "Taux de cotisations patronales/salariales : Les taux de cotisations sociales sont généralement fixés par la Loi de Financement de la Sécurité Sociale (LFSS) et ses décrets d'application. Aucune modification majeure des taux généraux pour 2026 n'a été spécifiquement identifiée, mais des ajustements peuvent intervenir en fonction des réformes en cours. L'impact de la revalorisation du SMIC sur les réductions de cotisations patronales est à prendre en compte.",
-        "IJSS maladie : Elles correspondent à 50 % du salaire journalier de base.",
-        "Plafond de calcul des IJSS : Le salaire brut pris en compte pour le calcul du salaire journalier de base ne peut dépasser 1,4 fois le SMIC mensuel, soit 2 552,25 € en janvier 2026.",
-        "Montant maximal des IJSS journalières : 41,95 € à compter du 1er février 2026 et 42,97 € à partir du 1er juillet 2026.",
-        "Délai de carence : Un délai de carence de 3 jours s'applique généralement avant le début de l'indemnisation, sauf pour les arrêts liés à une Affection de Longue Durée (ALD) où il n'est retenu que pour le premier arrêt sur une période de trois ans."
+        "Plafond annuel de la Sécurité Sociale (PASS) : 48 060 € pour 2026.",
+        "Plafond mensuel de la Sécurité Sociale (PMSS) : 4 005 € pour 2026.",
+        "Le plafond est revalorisé annuellement au 1er janvier en fonction de l'évolution des salaires.",
+        "Les IJSS correspondent à 50% du salaire journalier de base.",
+        "Le salaire pris en compte pour le calcul des IJSS est plafonné à 1,4 fois le SMIC mensuel, soit 2 552,25 € en janvier 2026.",
+        "Le montant maximal des IJSS brutes est de 41,95 € pour les arrêts maladie débutant à compter du 1er février 2026.",
+        "Les taux de cotisations patronales et salariales sont soumis à des barèmes spécifiques et utilisent le PSS comme base de calcul, mais les taux précis pour 2026 n'ont pas été trouvés dans les recherches."
       ],
-      "date_effet": "01/01/2026 (PSS), 01/02/2026 (IJSS max), 01/07/2026 (IJSS max)",
-      "source": "Service Public, Juritravail, Centre Inffo, Culture RH, Facebook, Payfit, Bpifrance Création, Légifrance, Apicil, Editions Tissot"
+      "date_effet": "1er janvier 2026 (PSS), 1er février 2026 (IJSS max)",
+      "source": "Service Public, Urssaf.fr, Centre Inffo, Juritravail, Culture RH, L-Expert-Comptable.com, Facebook, Apicil, Payfit, Editions Tissot"
     },
     "vad": {
       "titre": "Convention Collective Nationale de la Vente à Distance (IDCC 2198)",
-      "resume": "Aucun avenant ou grille salariale spécifique à l'IDCC 2198 pour l'année 2026 n'a été identifié lors de cette veille. Les dispositions générales du Code du travail et les dernières revalorisations du SMIC s'appliquent. Il est recommandé de consulter les publications officielles pour d'éventuelles mises à jour.",
+      "resume": "Aucun avenant majeur ou grille de salaires spécifique à l'IDCC 2198 pour l'année 2026 n'a été identifié lors de cette veille. Les dispositions légales, notamment le SMIC, s'appliquent en l'absence de dispositions conventionnelles plus favorables.",
       "points": [
-        "Derniers avenants : Aucune information spécifique sur des avenants pour 2026 n'a été trouvée. Les dernières dispositions conventionnelles en vigueur s'appliquent.",
-        "Grille salaires : Aucune grille salariale spécifique pour 2026 n'a été identifiée. Les entreprises relevant de l'IDCC 2198 doivent s'assurer que les salaires versés sont au moins égaux au SMIC en vigueur (12,31 € brut horaire et 1 867,02 € brut mensuel au 1er juin 2026) ou aux minima conventionnels si ceux-ci sont supérieurs."
+        "Pas de publication récente d'avenants ou de grilles de salaires spécifiques à l'IDCC 2198 pour 2026 trouvée.",
+        "Les entreprises relevant de cette convention doivent s'assurer que les salaires minima conventionnels respectent au moins le SMIC en vigueur."
       ],
-      "date_effet": "N/A (dernières dispositions connues)",
-      "source": "Recherche Google (absence de résultats spécifiques pour 2026)"
+      "date_effet": "N/A",
+      "source": "Recherche Google (absence de résultats spécifiques)"
     },
     "resto": {
       "titre": "Convention Collective Nationale de la Restauration Rapide (IDCC 1501)",
-      "resume": "La Convention Collective Nationale de la Restauration Rapide (IDCC 1501) continue de régir les relations de travail dans le secteur. Les règles concernant les congés payés et le repos hebdomadaire sont précisées, mais aucune grille salariale ou avenant spécifique pour 2026 n'a été identifié au-delà des dispositions existantes.",
+      "resume": "Aucun avenant majeur ou grille de salaires spécifique à l'IDCC 1501 pour l'année 2026 n'a été identifié lors de cette veille. Les règles concernant les congés payés et les temps de repos sont précisées par la convention.",
       "points": [
-        "Derniers avenants : L'avenant n° 69 du 30 avril 2024, étendu le 13 décembre 2024, garantit au moins huit week-ends par an hors congés payés. Aucune autre information spécifique sur des avenants pour 2026 n'a été trouvée.",
-        "Grille salaires : Aucune grille salariale spécifique pour 2026 n'a été identifiée. Les entreprises doivent appliquer le SMIC en vigueur (12,31 € brut horaire et 1 867,02 € brut mensuel au 1er juin 2026) si celui-ci est supérieur aux minima conventionnels.",
-        "Travail de nuit/dimanche : La convention collective prévoit des dispositions spécifiques sur le repos hebdomadaire, notamment au moins huit week-ends par an hors congés payés. Les majorations pour travail de nuit et du dimanche sont régies par les accords en vigueur au sein de la branche, en l'absence de nouvelles dispositions pour 2026.",
-        "Congés payés : Acquisition de 2,5 jours ouvrables par mois de travail effectif. La période de référence s'étend du 1er juin N au 31 mai N+1. Un minimum de 12 jours ouvrables du congé principal doit être pris entre le 1er mai et le 31 octobre."
+        "Pas de publication récente d'avenants ou de grilles de salaires spécifiques à l'IDCC 1501 pour 2026 trouvée.",
+        "La période d'acquisition des congés payés s'étend du 1er juin au 31 mai de l'année suivante.",
+        "Les salariés acquièrent 2,50 jours ouvrables de congés par mois de travail effectif.",
+        "Le congé principal de 24 jours ouvrables peut être fractionné, avec 12 jours ouvrables (ou 10 jours ouvrés) obligatoirement pris entre le 1er mai et le 31 octobre.",
+        "L'affichage des congés payés doit être effectué au plus tard le 1er avril.",
+        "Un temps de repos de 11 heures consécutives est fixé entre deux jours de travail, porté à 12 heures pour les salariés quittant leur poste après minuit à Paris et région parisienne, ou 22 heures en province.",
+        "La convention collective ne prévoit pas de jours supplémentaires pour fractionnement, sauf si le salarié a été contraint par l'employeur.",
+        "Les entreprises relevant de cette convention doivent s'assurer que les salaires minima conventionnels respectent au moins le SMIC en vigueur."
       ],
-      "date_effet": "N/A (dernières dispositions connues, avenant 2024 pour repos hebdomadaire)",
-      "source": "LégiSocial, Hayot Expertise, Légifrance, Combo"
+      "date_effet": "N/A (pour avenants/grilles 2026), 25 août 2026 (synthèse congés payés)",
+      "source": "LégiSocial, Légifrance, Fiche-paie.net"
     },
     "sejour": {
-      "titre": "Titres de séjour autorisant le travail et obligations de l'employeur",
-      "resume": "Les règles concernant les titres de séjour autorisant le travail en France, les obligations des employeurs et les sanctions en cas de travail illégal restent inchangées pour 2026, en l'absence de nouvelles législations spécifiques. L'Office Français de l'Immigration et de l'Intégration (OFII) conserve son rôle central.",
+      "titre": "Embauche de salariés étrangers : titres, obligations et sanctions en 2026",
+      "resume": "L'embauche de salariés étrangers est strictement encadrée en France, avec des obligations de vérification pour l'employeur et des sanctions renforcées en cas de non-respect.",
       "points": [
-        "Titres autorisant le travail : Les titres de séjour mentionnant 'salarié', 'travailleur temporaire', 'carte bleue européenne', 'passeport talent', 'étudiant' (sous certaines conditions), entre autres, autorisent l'exercice d'une activité professionnelle.",
-        "Obligations employeur : L'employeur doit vérifier l'existence et la validité du titre de séjour et de l'autorisation de travail du salarié étranger, effectuer une déclaration préalable à l'embauche et, pour certains titres, s'acquitter d'une taxe auprès de l'OFII.",
-        "Sanctions : L'emploi d'un étranger sans titre de travail est passible de sanctions pénales et administratives lourdes (amendes, peines d'emprisonnement, interdiction d'exercer).",
-        "OFII : L'OFII est l'interlocuteur privilégié pour les démarches liées à l'introduction de travailleurs étrangers, la délivrance de certains titres de séjour et le contrôle des conditions d'emploi."
+        "Les ressortissants de l'Union Européenne et de la Suisse n'ont pas besoin d'autorisation de travail.",
+        "Pour les autres nationalités, une autorisation de travail est nécessaire, figurant sur un titre de séjour, un visa long séjour valant titre de séjour (VLS-TS) mention 'salarié', ou une autorisation de travail spécifique.",
+        "L'employeur doit vérifier l'autorisation de travail via le téléservice officiel au moins deux jours ouvrables avant la prise de poste.",
+        "La demande d'autorisation de travail s'effectue exclusivement en ligne.",
+        "Les obligations de l'employeur incluent également la Déclaration Préalable à l'Embauche (DPAE) et le contrôle régulier de la validité du titre de séjour.",
+        "Les sanctions pénales pour emploi d'un ressortissant étranger sans permis de travail valide ont doublé, passant de 15 000 € à 30 000 € par salarié, avec un élargissement du champ d'application de l'infraction.",
+        "La responsabilité pénale peut s'étendre à l'employeur et aux dirigeants à titre individuel.",
+        "La taxe OFII est une obligation pour les employeurs recrutant des travailleurs étrangers."
       ],
-      "date_effet": "N/A (dernières dispositions connues)",
-      "source": "Recherche Google (absence de résultats spécifiques pour 2026)"
+      "date_effet": "2026 (réformes des permis de travail)",
+      "source": "Cabinet Mosselmans, Ministère de l'Intérieur, Cabinet Exilae, CCI Tarn, Jobbatical"
     },
     "sante": {
-      "titre": "Santé et Sécurité au Travail : DUERP, Visites Médicales, AT/MP, Inaptitude",
-      "resume": "En l'absence de nouvelles législations spécifiques pour 2026, les obligations des employeurs en matière de santé et sécurité au travail, incluant le Document Unique d'Évaluation des Risques Professionnels (DUERP), les visites médicales, la gestion des Accidents du Travail et Maladies Professionnelles (AT/MP) et la procédure d'inaptitude, demeurent conformes aux dispositions actuelles du Code du travail.",
+      "titre": "Santé et sécurité au travail : DUERP, visites médicales et inaptitude en 2026",
+      "resume": "Les obligations de l'employeur en matière de santé au travail restent primordiales, avec un rôle central du DUERP et des évolutions concernant les visites médicales de reprise. La procédure d'inaptitude est strictement encadrée.",
       "points": [
-        "DUERP : L'employeur a l'obligation d'élaborer et de mettre à jour annuellement le Document Unique d'Évaluation des Risques Professionnels (DUERP), qui recense l'ensemble des risques pour la santé et la sécurité des salariés.",
-        "Visites médicales : Les visites médicales (d'embauche, périodiques, de reprise, etc.) sont obligatoires et visent à s'assurer de l'aptitude du salarié à son poste de travail et à prévenir toute altération de sa santé du fait de son travail.",
-        "AT/MP : La législation sur les Accidents du Travail et Maladies Professionnelles (AT/MP) impose à l'employeur des obligations de déclaration et de prévention. Les taux de cotisation AT/MP sont révisés annuellement.",
-        "Inaptitude : La procédure d'inaptitude au travail, constatée par le médecin du travail, implique une obligation de reclassement pour l'employeur, et à défaut, une procédure de licenciement spécifique."
+        "Le Document Unique d'Évaluation des Risques Professionnels (DUERP) est fondamental pour déterminer le régime de surveillance médicale de chaque salarié.",
+        "La Visite d'Information et de Prévention (VIP) d'embauche doit avoir lieu dans les 3 mois suivant la prise de poste et est renouvelée tous les 5 ans.",
+        "Une Surveillance Médicale Renforcée (SMR) est requise pour les salariés exposés à des risques particuliers.",
+        "La visite de reprise est obligatoire après certains arrêts de travail (maladie/accident non pro d'au moins 60 jours, AT d'au moins 30 jours, maladie pro, congé maternité).",
+        "Depuis le 15 juin 2026, la visite de reprise peut être dispensée si une visite de pré-reprise a eu lieu dans les 30 jours précédents et qu'aucun aménagement n'est nécessaire.",
+        "La visite de pré-reprise peut être demandée par le salarié, le médecin traitant, le médecin conseil de la Sécurité sociale ou le médecin du travail pour un arrêt de plus de 30 jours.",
+        "L'inaptitude au travail est constatée par le médecin du travail après une étude de poste, des échanges avec le salarié et l'employeur.",
+        "L'employeur a une obligation de reclassement, sauf dispense expresse du médecin du travail.",
+        "L'avis d'inaptitude peut être contesté devant le conseil de prud'hommes dans un délai de 15 jours.",
+        "Les indemnités de licenciement sont plus élevées en cas d'inaptitude d'origine professionnelle."
       ],
-      "date_effet": "N/A (dernières dispositions connues)",
-      "source": "Recherche Google (absence de résultats spécifiques pour 2026)"
+      "date_effet": "15 juin 2026 (visites de reprise)",
+      "source": "AidFacile, Actav, La Cité des Entreprises, Travail-Industrie, Djaboo, Phrolo, Humans Board, Culture RH,,"
     },
     "formation": {
-      "titre": "Actualités de la Formation Professionnelle : CPF, OPCO Commerce, Alternance, Aides Apprentis",
-      "resume": "L'année 2026 est marquée par des évolutions significatives concernant le Compte Personnel de Formation (CPF) et les aides à l'alternance, visant à renforcer la lutte contre la fraude et à adapter les dispositifs de financement.",
+      "titre": "Réforme du CPF et actualités formation professionnelle en 2026",
+      "resume": "La loi de finances pour 2026 et la loi de lutte contre les fraudes sociales et fiscales ont apporté des modifications importantes aux conditions d'éligibilité et de mobilisation du Compte Personnel de Formation (CPF), notamment des plafonds de financement et une obligation de présence aux examens.",
       "points": [
-        "CPF : De nouvelles conditions de mobilisation des droits sont en vigueur. La loi de lutte contre les fraudes sociales et fiscales du 25 juin 2026 impose aux titulaires du CPF de s'inscrire et de se présenter aux examens, sous peine de devoir rembourser le coût de la formation. Des plafonds de financement ont été instaurés : 1 500 € pour les certifications enregistrées au Répertoire Spécifique (RS), 1 600 € pour les bilans de compétences (avec condition de non-bénéfice depuis 5 ans), et 900 € pour les permis de conduire léger. Un reste à charge obligatoire de 103 € est appliqué à tous les titulaires du CPF depuis le 25 février 2026 (sauf demandeurs d'emploi et cofinancement).",
-        "OPCO Commerce : L'OPCO Commerce couvre 20 branches professionnelles du secteur et finance les plans de développement des compétences, les contrats d'apprentissage et de professionnalisation. À partir du 1er octobre 2026, la subrogation pour le paiement direct des organismes de formation sera réservée à certains dispositifs, le remboursement de l'entreprise se faisant sur la base du montant hors taxes.",
-        "Alternance : Le décret n° 2026-104 du 19 février 2026 modifie les règles de financement de l'alternance par France Compétences pour les OPCO. La loi de simplification de la vie économique a supprimé la déclaration préalable d'apprentissage depuis le 27 mai 2026.",
-        "Aides apprentis : L'aide à l'embauche d'un apprenti est reconduite en 2026 par le décret n° 2026-168 du 6 mars 2026 pour les contrats conclus entre le 8 mars et le 31 décembre 2026. Les montants varient selon la taille de l'entreprise et le niveau de diplôme préparé, pouvant aller jusqu'à 5 000 € pour un niveau bac en métropole. Une aide spécifique de 6 000 € est maintenue pour les apprentis en situation de handicap. Le versement des aides est conditionné à la transmission du contrat à l'OPCO dans les 6 mois."
+        "La loi de finances pour 2026, applicable depuis le 20 février 2026, modifie les conditions d'éligibilité de certaines formations au CPF.",
+        "Des plafonds de financement sont instaurés pour certaines catégories de formation : 1 500 € pour le Répertoire Spécifique, 1 600 € pour le bilan de compétences (avec un délai de carence de 5 ans), et 900 € pour le permis B.",
+        "Les formations certifiées et enregistrées au Répertoire National des Certifications Professionnelles (RNCP) ne sont pas concernées par ces plafonds.",
+        "La loi de lutte contre les fraudes sociales et fiscales du 25 juin 2026 impose aux titulaires du CPF de s'inscrire et de se présenter aux examens, sous peine de devoir rembourser le coût de la formation.",
+        "Cette mesure s'applique à compter du 27 juin 2026.",
+        "Aucune actualité majeure spécifique à l'OPCO Commerce, à l'alternance ou aux aides aux apprentis pour 2026 n'a été trouvée lors de cette veille."
       ],
-      "date_effet": "Février à Octobre 2026 (selon les mesures)",
-      "source": "economie.gouv.fr, AFPA, OPCOMMERCE, Centre Inffo, asp.gouv.fr, Editions Tissot, Légifrance, Opcommerce, Service Public, ENCG Formation, Inéa conseil, Bloom Alternance, UCLy, Linkpick, SchoolDetection"
+      "date_effet": "20 février 2026 (réforme CPF), 27 juin 2026 (obligation examens CPF)",
+      "source": "Centre Inffo, Icademie, Service Public, Oo2 Formations"
     },
     "conges": {
-      "titre": "Congés Payés, Maternité/Paternité et Conventions Collectives",
-      "resume": "Les règles générales du Code du travail concernant les congés payés, de maternité et de paternité s'appliquent en 2026. La Convention Collective de la Restauration Rapide (IDCC 1501) apporte des précisions sur les modalités de prise des congés.",
+      "titre": "Congés payés, maternité et paternité : règles générales et conventionnelles",
+      "resume": "Les règles générales d'acquisition et de prise des congés payés s'appliquent, avec des spécificités pour la convention collective de la restauration rapide (IDCC 1501). Les congés maternité/paternité sont des périodes assimilées à du temps de travail effectif pour l'acquisition des congés.",
       "points": [
-        "Jurisprudence CP : En l'absence de nouvelle jurisprudence majeure pour 2026, les principes établis en matière d'acquisition, de prise et d'indemnisation des congés payés restent applicables.",
-        "Congés maternité/paternité : Les dispositions légales relatives aux congés maternité et paternité, ainsi qu'aux congés d'accueil de l'enfant, demeurent en vigueur pour 2026, garantissant les droits des salariés concernés.",
-        "IDCC 2198 (VAD) : Aucune disposition spécifique aux congés payés pour 2026 n'a été identifiée pour cette convention. Les règles du Code du travail s'appliquent.",
-        "IDCC 1501 (Restauration Rapide) : Les salariés acquièrent 2,5 jours ouvrables de congés payés par mois de travail effectif. La période de référence pour l'acquisition est du 1er juin au 31 mai de l'année suivante. Le congé principal de 24 jours ouvrables peut être fractionné, avec 12 jours ouvrables (ou 10 jours ouvrés) obligatoirement pris entre le 1er mai et le 31 octobre. Une période de congé supplémentaire non payé d'un mois maximum peut être accordée aux salariés originaires des départements d'outre-mer ou de nationalité étrangère (hors UE)."
+        "La période de référence pour l'acquisition des congés payés est généralement du 1er juin au 31 mai de l'année suivante.",
+        "Les salariés acquièrent 2,5 jours ouvrables de congés par mois de travail effectif.",
+        "Pour l'IDCC 1501 (Restauration Rapide), le congé principal de 24 jours ouvrables peut être fractionné, avec une prise obligatoire de 12 jours ouvrables entre le 1er mai et le 31 octobre.",
+        "Les congés maternité et paternité sont des périodes qui permettent l'acquisition de jours de congés payés.",
+        "Aucune nouvelle jurisprudence majeure sur les congés payés pour 2026 n'a été identifiée.",
+        "Aucune spécificité notable concernant les congés pour l'IDCC 2198 (VAD) n'a été trouvée lors de cette veille."
       ],
-      "source": "LégiSocial, Légifrance, Recherche Google (absence de résultats spécifiques pour 2026)"
+      "source": "LégiSocial, Légifrance"
     },
     "legis": {
-      "titre": "Actualités Législatives RH Majeures Récentes (2026)",
-      "resume": "L'année 2026 est marquée par plusieurs évolutions législatives impactant le droit social français, notamment en matière de formation professionnelle et de simplification administrative.",
+      "titre": "Actualités législatives RH majeures récentes en France",
+      "resume": "Plusieurs textes législatifs récents ont impacté le droit social français en 2026, notamment en matière de formation professionnelle et de lutte contre le travail illégal.",
       "points": [
-        "Loi de lutte contre les fraudes sociales et fiscales du 25 juin 2026 : Cette loi introduit de nouvelles obligations pour les titulaires du CPF, notamment l'obligation de se présenter aux examens sous peine de remboursement du coût de la formation.",
-        "Loi de finances pour 2026 : Elle a instauré des plafonds de financement pour certaines formations éligibles au CPF et une participation financière obligatoire pour les titulaires.",
-        "Réforme du financement de l'alternance : Précisée par le décret du 6 mars 2026, cette réforme modifie les modalités de financement de l'alternance par France Compétences et les OPCO.",
-        "Loi de simplification de la vie économique : Elle a notamment supprimé la déclaration préalable d'apprentissage pour les employeurs depuis le 27 mai 2026."
+        "**Réforme du Compte Personnel de Formation (CPF)** : La loi de finances pour 2026, applicable depuis le 20 février 2026, a modifié les conditions d'éligibilité et de mobilisation du CPF, introduisant des plafonds de financement pour certaines formations.",
+        "**Lutte contre les fraudes sociales et fiscales** : La loi du 25 juin 2026 impose aux titulaires du CPF de se présenter aux examens des formations financées, sous peine de devoir rembourser les fonds. Cette mesure est effective depuis le 27 juin 2026.",
+        "**Renforcement des sanctions contre l'emploi illégal d'étrangers** : Les réformes de 2026 ont doublé les amendes pénales pour l'emploi de ressortissants étrangers sans autorisation de travail valide, les portant à 30 000 € par salarié, et ont élargi le champ d'application de l'infraction.",
+        "**Évolution des règles de la médecine du travail** : De nouvelles règles concernant la visite de reprise sont entrées en vigueur le 15 juin 2026, permettant notamment une dispense sous certaines conditions."
       ],
-      "source": "economie.gouv.fr, Centre Inffo, Editions Tissot, Légifrance, ENCG Formation, UCLy"
+      "source": "Centre Inffo, Service Public, Jobbatical, AidFacile, La Cité des Entreprises"
     }
   }
 }
